@@ -1,0 +1,34 @@
+{
+  "title": "Our board",
+  "intro": "GCCAI is governed by a volunteer board that sets direction, oversees finances and safeguarding, and holds the organisation to account.",
+  "members": [
+    {
+      "name": "Bedari Hari",
+      "role": "Board Chair"
+    },
+    {
+      "name": "Zibiah Alonge",
+      "role": "Secretary"
+    },
+    {
+      "name": "Oiza Alonge",
+      "role": "Founder / Executive Director"
+    },
+    {
+      "name": "Salome Agbaji",
+      "role": "Member"
+    },
+    {
+      "name": "Oganya Agbaji",
+      "role": "Member"
+    },
+    {
+      "name": "Priscilla Enjugu",
+      "role": "Member"
+    },
+    {
+      "name": "Jiru Bako",
+      "role": "Member"
+    }
+  ]
+}

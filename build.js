@@ -328,7 +328,23 @@ function partnersBlock() {
 </section>`;
 }
 
+// Board: content/board.json (names and roles only)
+let boardData = { members: [] };
+try { boardData = JSON.parse(fs.readFileSync(path.join(ROOT, "content/board.json"), "utf8")); } catch {}
+function boardBlock() {
+  const list = (boardData.members || []).filter((m) => m && m.name);
+  if (!list.length) return "";
+  const cards = list.map((m) => `<div class="board-card"><h3>${esc(m.name)}</h3><p>${esc(m.role || "")}</p></div>`).join("");
+  return `<section class="wrap section board-section" id="board">
+  <p class="eyebrow">Governance</p>
+  <h2 class="section-title">${esc(boardData.title || "Our board")}</h2>
+  ${boardData.intro ? `<p class="board-intro">${esc(boardData.intro)}</p>` : ""}
+  <div class="board">${cards}</div>
+</section>`;
+}
+
 const tokens = {
+  board: boardBlock(),
   partners: partnersBlock(),
   email: esc(cfg.email),
   address: esc(cfg.address),
