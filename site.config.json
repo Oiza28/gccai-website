@@ -15,8 +15,8 @@
     "facebook": { "label": "Facebook", "url": "https://www.facebook.com/GCCAInitiative/" }
   },
   "forms": {
-    "volunteer": "",
-    "partner": "",
+    "volunteer": "https://forms.gle/5BecKfFjBp1q63kG6",
+    "partner": "https://forms.gle/fHA4T6MLEbZ2uS817",
     "newsletter": "https://90b6f810.sibforms.com/serve/MUIFAAojeFXNY1LslsTAwBHbgv5yrBOIwP0rlrwZlSYF6bNChoygNYe8Ne50Iw8BYPohskTotj1utl2YYRtXp6W-hQa2w8tAVe6B4OuvU3jz5yzx04YrTtQnElEkWjbImTlmGqNXUZqIRmDK26vNAdmFGAQtslkD7F8GAm46qrBX-U5UGDOiJPpdDaTxvMBvqZT8x-Dg3DN914za8A=="
   },
   "stats": [
