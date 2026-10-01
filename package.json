@@ -1,0 +1,12 @@
+{
+  "name": "gccai-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "gccaing.com - Girl Child Care Advancement Initiative",
+  "scripts": {
+    "build": "node build.js",
+    "preview": "node build.js && npx serve dist"
+  },
+  "engines": { "node": ">=18" }
+}

@@ -1,0 +1,29 @@
+{
+  "siteUrl": "https://gccaing.com",
+  "name": "Girl Child Care Advancement Initiative",
+  "shortName": "GCCAI",
+  "tagline": "Empower The Girl Child, Advance The Nation",
+  "description": "GCCAI is a Nigerian nonprofit, founded in 2018, that helps girls overcome the financial, social and cultural barriers between them and education, safety, leadership and opportunity.",
+  "defaultShareImage": "/images/gallery/road-to-illuminate-school-visit.jpg",
+  "email": "info@gccaing.com",
+  "phones": ["+234 803 297 1986", "+234 705 728 1848"],
+  "address": "No 9 Sanni Alonge Street, Behind Buhari International Market, Nasarawa",
+  "registration": "CAC/IT/NO 107761",
+  "social": {
+    "instagram": { "label": "Instagram", "url": "https://instagram.com/girl_childadvancement" },
+    "x": { "label": "X (Twitter)", "url": "https://x.com/girlchildcare1" },
+    "facebook": { "label": "Facebook", "url": "https://www.facebook.com/GCCAInitiative/" }
+  },
+  "forms": {
+    "volunteer": "",
+    "partner": "",
+    "newsletter": ""
+  },
+  "stats": [
+    { "value": "430+", "label": "Girls reached" },
+    { "value": "150+", "label": "Women and children reached in IDP camps and vulnerable communities" },
+    { "value": "7", "label": "Locations" },
+    { "value": "5+", "label": "Campaigns completed" }
+  ],
+  "statsNote": "Figures from GCCAI's records, 2018 to 2020."
+}
