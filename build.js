@@ -305,7 +305,31 @@ function galleryGrid(items) {
 </figure>`).join("")}</div>`;
 }
 
+// Partners: content/partners.json (logo = path under public/, e.g. /images/partners/name.png)
+let partnersData = { partners: [] };
+try { partnersData = JSON.parse(fs.readFileSync(path.join(ROOT, "content/partners.json"), "utf8")); } catch {}
+function partnersBlock() {
+  const list = (partnersData.partners || []).filter((p) => p && p.name);
+  if (!list.length) return "";
+  const tiles = list.map((p) => {
+    const inner = p.logo
+      ? `<img src="${esc(p.logo)}" alt="${esc(p.name)}" loading="lazy">`
+      : `<span class="partner-name">${esc(p.name)}</span>`;
+    const body = `${inner}${p.role ? `<span class="partner-role">${esc(p.role)}</span>` : ""}`;
+    return p.url
+      ? `<a class="partner" href="${esc(p.url)}" target="_blank" rel="noopener">${body}</a>`
+      : `<div class="partner">${body}</div>`;
+  }).join("");
+  return `<section class="wrap section partners-section">
+  <p class="eyebrow">Partners</p>
+  <h2 class="section-title">${esc(partnersData.title || "Our partners")}</h2>
+  <div class="partners">${tiles}</div>
+  ${partnersData.note ? `<p class="stats-note">${esc(partnersData.note)}</p>` : ""}
+</section>`;
+}
+
 const tokens = {
+  partners: partnersBlock(),
   email: esc(cfg.email),
   address: esc(cfg.address),
   registration: esc(cfg.registration),
