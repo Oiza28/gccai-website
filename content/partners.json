@@ -1,0 +1,10 @@
+{
+  "title": "Organisations we have worked with",
+  "note": "Partners and supporters of GCCAI's work, 2018 to 2020.",
+  "partners": [
+    { "name": "Mentor Me Initiative", "role": "Mentorship partner, Walks of Life", "url": "", "logo": "" },
+    { "name": "FCT Secondary Education Board (SEB)", "role": "Schools partner", "url": "", "logo": "" },
+    { "name": "Mike Omotosho Foundation", "role": "Partner", "url": "", "logo": "" },
+    { "name": "Valeo NG", "role": "Partner", "url": "", "logo": "" }
+  ]
+}

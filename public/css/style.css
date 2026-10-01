@@ -235,3 +235,13 @@ p { margin: 0 0 1em; }
 .footer-base p { margin-bottom: .4em; }
 @media (max-width: 860px) { .footer-grid { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 480px) { .footer-grid { grid-template-columns: 1fr; } }
+
+/* Partners */
+.partners { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.partner { border: 1px solid var(--line); border-radius: var(--radius); padding: 22px 18px; min-height: 110px;
+  display: flex; flex-direction: column; justify-content: center; gap: 6px; text-decoration: none; color: var(--ink); background: var(--white); }
+a.partner:hover { border-color: var(--violet); }
+.partner img { max-height: 56px; width: auto; object-fit: contain; }
+.partner-name { font-family: var(--serif); font-weight: 700; font-size: 1.05rem; line-height: 1.25; }
+.partner-role { font-size: .85rem; color: var(--ink-soft); }
+@media (max-width: 860px) { .partners { grid-template-columns: repeat(2, 1fr); } }
