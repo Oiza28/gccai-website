@@ -1,7 +1,7 @@
 /* GCCAI — gccaing.com
    Brand rules: white background always; pink for large type and highlights;
    violet for links, labels and buttons; ink for text; lavender for light panels only.
-   Georgia for headings, Franklin Gothic (Libre Franklin online) for body. */
+   Fraunces for headings, DM Sans for body (Google Fonts). */
 
 :root {
   --pink: #FF3B87;
@@ -12,8 +12,8 @@
   --lavender: #EEE8F8;
   --line: #E4DDF1;
   --white: #FFFFFF;
-  --serif: Georgia, "Times New Roman", serif;
-  --sans: "Franklin Gothic Book", "Libre Franklin", "Helvetica Neue", Arial, sans-serif;
+  --serif: "Fraunces", Georgia, "Times New Roman", serif;
+  --sans: "DM Sans", "Helvetica Neue", Arial, sans-serif;
   --radius: 14px;
   --max: 1160px;
 }
